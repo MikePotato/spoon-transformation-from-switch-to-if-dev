@@ -18,6 +18,7 @@ public class SwitchArrowFunctionalTests extends MethodTestBase {
         l.addProcessor(new ClassNamePatchProcessor());
         l.addProcessor(new SwitchProcessor());
         l.addProcessor(new SwitchExpressionProcessor());
+        l.getEnvironment().setComplianceLevel(18);
         l.setSourceOutputDirectory("target/spooned");
         l.run();
     }
