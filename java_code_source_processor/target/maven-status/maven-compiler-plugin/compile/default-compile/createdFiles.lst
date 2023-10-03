@@ -1,0 +1,7 @@
+processor\core\CasesPerIf.class
+Main.class
+utils\Utils.class
+processor\MySwitchExpressionProcessor.class
+processor\core\CtIfBuilder.class
+processor\SwitchTransformProcessor.class
+processor\core\CtIfBuilder$1.class
