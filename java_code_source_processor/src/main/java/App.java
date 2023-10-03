@@ -11,6 +11,7 @@ public class App {
         });
         launcher.addProcessor(new SwitchProcessor());
         launcher.addProcessor(new SwitchExpressionProcessor());
+        launcher.getEnvironment().setComplianceLevel(18);
         launcher.run();
     }
 }
