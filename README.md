@@ -9,7 +9,7 @@
 
 ## Get started
 
-Для запуска взять jar из https://github.com/MikePotato/spoon-transformation-from-switch-to-if-dev/tree/main/java_code_source_processor/out/artifacts и запустить с указанием параметров --ARG_NAME_FOR_INPUT и --ARG_NAME_FOR_OUTPUT:
+Для запуска взять java_code_source_processor.jar из [https://github.com/MikePotato/spoon-transformation-from-switch-to-if-dev/tree/main/java_code_source_processor/out/artifacts](https://github.com/MikePotato/spoon-transformation-from-switch-to-if/tree/main/java_code_source_processor_JDK11/out/artifacts) и запустить с указанием параметров --ARG_NAME_FOR_INPUT и --ARG_NAME_FOR_OUTPUT:
 
 ```
 java -jar c:\java_code_source_processor.jar --ARG_NAME_FOR_INPUT D:\in\java_code_source_input\src --ARG_NAME_FOR_OUTPUT d:\out
