@@ -1,3 +1,5 @@
+package app;
+
 import utils.Utils;
 
 public class Main {

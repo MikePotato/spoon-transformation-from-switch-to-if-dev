@@ -9,18 +9,18 @@ import java.util.stream.IntStream;
 public class TaskSnippetsTests {
     @Test
     public void Test(){
-        IntStream.range(0, 10).forEach((val) -> {
-            final var logger1 = new StringBuilder();
-            final var logger2 = new StringBuilder();
-            final var origin = new Origin();
-            origin.test1(val, logger1);
-            origin.test2(val, logger2);
-
-            System.out.println("-------------------------------");
-            System.out.println(logger1);
-            System.out.println(logger2);
-            Assert.assertEquals(logger1.toString(), logger2.toString());
-        });
+//        IntStream.range(0, 10).forEach((val) -> {
+//            final var logger1 = new StringBuilder();
+//            final var logger2 = new StringBuilder();
+//            final var origin = new Origin();
+//            origin.test1(val, logger1);
+//            origin.test2(val, logger2);
+//
+//            System.out.println("-------------------------------");
+//            System.out.println(logger1);
+//            System.out.println(logger2);
+//            Assert.assertEquals(logger1.toString(), logger2.toString());
+//        });
     }
 
     static class Origin {

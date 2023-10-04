@@ -1,3 +1,5 @@
+package app;
+
 import processor.SwitchExpressionProcessor;
 import processor.SwitchProcessor;
 import spoon.Launcher;

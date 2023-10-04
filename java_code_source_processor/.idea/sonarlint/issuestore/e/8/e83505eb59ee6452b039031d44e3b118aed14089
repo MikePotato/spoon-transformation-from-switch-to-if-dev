@@ -1,0 +1,30 @@
+
+0
+java:S1220""Move this file to a named package.
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+A
+java:S4524"+Move this default to the end of the switch.(ØíÙÊ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ØíÙÊ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òŸÌÈ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(á©¡‘ıÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(•½»ø
+A
+java:S4524("+Move this default to the end of the switch.(îêâ‰
+N	java:S106("9Replace this use of System.out or System.err by a logger.(îêâ‰
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÙŸ’ÿÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Õ¨×µıÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(êµõ¹ıÿÿÿÿ
+F
+java:S45241"+Move this default to the end of the switch.(şĞÀÿÿÿÿÿ
+C
+java:S62051"(Remove this redundant block and "yield".(şĞÀÿÿÿÿÿ
+C
+java:S62054"(Remove this redundant block and "yield".(¬¹®–ıÿÿÿÿ
+F
+java:S4524:"+Move this default to the end of the switch.(«Æ’ùÿÿÿÿ
+C
+java:S6205G"(Remove this redundant block and "yield".(¬¹®–ıÿÿÿÿ

@@ -1,0 +1,25 @@
+
+^
+java:S1192"HDefine a constant instead of duplicating this literal "DEFAULT" 3 times.(íÓÕì
+0
+java:S1220""Move this file to a named package.
+H
+java:S11993"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S11997"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S11998"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+A
+java:S4524"+Move this default to the end of the switch.(íÓÕì
+A
+java:S4524"+Move this default to the end of the switch.(üØô
+B
+java:S1172!",Remove this unused method parameter "input".(Øá…ü
+A
+java:S4524)"+Move this default to the end of the switch.(íÓÕì
+B
+java:S1172/",Remove this unused method parameter "input".(‰‹†Õ
+A
+java:S4524A"+Move this default to the end of the switch.(íÓÕì
+7
+java:S6205>"Remove this redundant block.(Ž€ø¥ÿÿÿÿÿ
