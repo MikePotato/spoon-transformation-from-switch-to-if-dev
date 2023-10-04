@@ -37,7 +37,7 @@ public class CasesPerIf {
     public CtCodeSnippetExpression<Boolean> getFinalExpression(CtLocalVariable expressionVariable) {
         final var exp = this.expressions.stream()
                 .map(it -> "java.util.Objects.equals(" + expressionVariable.getSimpleName() + ", " + it.toString() + ")")
-                .collect(Collectors.joining(" || "));;
+                .collect(Collectors.joining(" || "));
         return source.getFactory().Code().<Boolean>createCodeSnippetExpression(isDefault ? getDefaultExpression(expressionVariable) : exp);
     }
 
@@ -51,7 +51,7 @@ public class CasesPerIf {
 
         final var exp = this.expressions.stream()
                 .map(it -> "java.util.Objects.equals(" + expressionVariable.getSimpleName() + ", " + it.toString() + ")")
-                .collect(Collectors.joining(" || "));;
+                .collect(Collectors.joining(" || "));
 
         return exp.isEmpty() || exp.isBlank() ? defExp :  "(:defExp) || :exp".replace(":defExp", defExp).replace(":exp", exp);
     }
